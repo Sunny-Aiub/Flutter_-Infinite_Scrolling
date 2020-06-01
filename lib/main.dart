@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterinfinitescrolling/lazy_loading.dart';
+import 'package:flutterinfinitescrolling/using_api.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LazyLoadingRoute(),
+      home: DataWIthAPIRoute(),//LazyLoadingRoute(),//DataWIthAPIRoute(),
     );
   }
 }
